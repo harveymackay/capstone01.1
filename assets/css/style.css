@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+}
+
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;	
+}
+
+/*landing page*/
+
+.jumbotron hr {
+	background-color: white;
+}
+
+#jumbo-land {
+	padding-top: 15%;
+	height: 100vh;
+	background-image: url("../images/rw14.jpeg");
+	border-radius: 0; /*removes jumbotron's rounded corners*/
+}
+
+.jumbotron h1 {
+	color: #f2f2f2; /*white*/
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*end landing*/
+
+
+/*home page*/
+#home-landing {
+	background-image: url("../images/rw12.jpeg");
+	background-position: absolute;
+	background-size: cover;
+	padding: 20%;
+	color: #fff;
+}
+
+#carousel-controls {
+	height: 100vh;
+}
+
+#carousel-controls img {
+	height: 90vh;
+	max-height: 90vh;
+}
+
+/*end home*/
+
+
+
+/*contact*/
+
+#map-wrap {
+	position: relative;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+.p-3 {
+	color: 	white;
+}
+
+.py-3 {
+	color: white;
+
+}
+
+#form{
+	padding: 25px 0px 0px 15px;
+	/*color: white;*/
+}
+
+.embed-responsive-item {
+	padding: 0px 15px 0px 0px;
+}
+
+
+/*end contact*/
+
+
+
+/*about*/
+
+.fadeIn {
+	animation-duration: 3s;
+}
+
+
+#jumbotron-about {
+	background-image: url("../images/rw32a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	border-radius: 0;
+} 
+
+#landing-about {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 7em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+.about-tags {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#mission {
+	height: 100%;
+	background-color: #141414; /*off black*/
+	color: #f2f2f2; /*off white*/
+}
+
+#vision {
+	height: 100%;
+	background-color: #f2f2f2; /*off white*/
+	color: #141414; /*off black*/
+}
+
+.cardabout {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card-img-top {
+	height: 400px;
+}
+
+.googlemap {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.rw23{
+	padding-left:20px; 
+}
+
+.card {
+	padding-bottom: 20px;
+}
+}
+
+
+
+/*..... gallery......*/
+
+.galleryline{
+	line-height: 3px;
+}
+
+.pair,
+.pants{
+	color: white;
+}
+
+
+
+/*MEDIA QUERIES-----------------------------*/
+
+/*desktop view*/
+
+@media only screen and (min-width: 960px) and (max-width: 4000px) {
+	.galbox > img {
+	width:100%;
+	height: 50vh;
+	}
+}
+
+/*tablet view*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.galbox > img {
+	width:100%;
+	height: 80vh;
+	margin-bottom: 20px;
+	}
+
+}
+/*mobile view*/
+
+@media only screen and (max-width: 400px) {
+	.galbox > img {
+	margin-bottom: 20px;
+	}
+
+	.googlemap {
+	height: 50vh;
+	width: 100vh;
+	}
+
+	.no-mobile {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
